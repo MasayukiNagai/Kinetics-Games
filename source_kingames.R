@@ -1,0 +1,15 @@
+# quick sourcing of simulation files and plotting files
+
+setwd("~/Box Sync/p-harvey/Teaching/R-Project/kineticGames")
+source("monomolecular.R")
+source("bimolecular.R")
+source("catalytic.R")
+source("autocatalytic.R")
+source("consecutive.R")
+source("equilibrium.R")
+source("simpleplot.R")
+source("play_game.R")
+source("repeat_game.R")
+source("rep_plot.R")
+source("first_order.R")
+source("second_order.R")
