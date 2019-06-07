@@ -1,5 +1,6 @@
 # Kinetics-Games
-Developer Moon
+Developed by Moon as a chem project in Summer 2019 at DePauw University 
+Supervised by Professor David Harvey
 
 Date 06/06/2019
 
