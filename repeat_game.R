@@ -3,10 +3,10 @@ repeat_game = function(reps = 10,
                                 "catalytic", "autocatalytic", 
                                 "consecutive", "equilibrium"), 
                        a = 140, b = 0, x = 0, 
-                       cycles = 500, coins = 0){
+                       cycles = 500, probability = 0){
   game = match.arg(game)
   game_function = match.fun(game)
-  rep_results = replicate(reps, game_function(a, b, x, cycles, coins), simplify = FALSE)
+  rep_results = replicate(reps, game_function(a, b, x, cycles, probability), simplify = FALSE)
   a_reps = as.data.frame(lapply(rep_results, '[', "a_count"))
   b_reps = as.data.frame(lapply(rep_results, '[', "b_count"))
   x_reps = as.data.frame(lapply(rep_results, '[', "x_count"))

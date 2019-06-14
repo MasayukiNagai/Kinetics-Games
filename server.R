@@ -21,7 +21,7 @@ server = function(input, output, session) {
                               b = input$b,
                               x = input$x,
                               cycles = input$time,
-                              coins = input$probability)
+                              probability = input$probability)
             out
     })
     
