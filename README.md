@@ -17,5 +17,11 @@ Run the following command in the R console:
 shiny::runGitHub("Kinetics-Games","MasayukiNagai")
 ```
 
+## Reference
+
+Harsch, G. Kinetics and Mechanism-A Games Approach. *J. Chem. Educ*. 1984, 61(12), 1039.
+
 ## Acknowledgement
+
 Developed in summmer 2019 under the supervision of Professor David Harvey at DePauw University.
+
