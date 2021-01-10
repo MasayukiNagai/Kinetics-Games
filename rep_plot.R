@@ -19,8 +19,7 @@ rep_plot = function(file,
 # plot all repetitions for a and b, adding in x for consecutive
   ymax = c(0, 1.1 * max(c(file$a_average, file$b_average, file$x_average)))
   plot(x = -100, y = -100, type = "p", lwd = 1, lty = 1,
-       xlim = c(0, max(file$time)), ylim = ymax, xlab = "", ylab = ""
-       )
+       xlim = c(0, max(file$time)), ylim = ymax, xlab = "", ylab = "")
   mtext("Time", side = 1, line = 2, cex = 1.5)
   mtext("Counts", side = 2, line = 2, cex = 1.5)
   mtext(main_title, side = 3, line = 1.5, cex = 2.5)

@@ -20,7 +20,7 @@ ui<-fluidPage(theme = shinytheme("flatly"),
                                                 choices = list("monomolecular", "bimolecular", "catalytic", "autocatalytic", "consecutive", "equilibrium"), 
                                                 selected = "monomolecular"),
                                     sliderInput("a", "A: ",
-                                                       min = 0, max = 150, value = 140
+                                                       min = 0, max = 150, value = 100
                                     ) %>%
                                     shinyInput_label_embed(
                                       shiny_iconlink(name = "question-circle") %>%
@@ -57,7 +57,7 @@ ui<-fluidPage(theme = shinytheme("flatly"),
                                                            placement = "left")
                                       ),
                                     sliderInput("repeats", "Repeat: ",
-                                                min = 1, max = 100, value = 10) %>%
+                                                min = 1, max = 100, value = 1) %>%
                                       shinyInput_label_embed(
                                         shiny_iconlink(name = "question-circle") %>%
                                           bs_embed_tooltip(title = "How many times you repeat a simulation (individual thin lines) *Play Simulation does not work more than 10 repeats",
@@ -114,7 +114,7 @@ ui<-fluidPage(theme = shinytheme("flatly"),
                                                            placement = "left")
                                       ),
                                     sliderInput("repeats_multi", "Repeat: ",
-                                                min = 1, max = 100, value = 10)%>%
+                                                min = 1, max = 100, value = 5)%>%
                                       shinyInput_label_embed(
                                         shiny_iconlink(name = "question-circle") %>%
                                           bs_embed_tooltip(title = "How many times you repeat a simulation (individual thin lines)",
