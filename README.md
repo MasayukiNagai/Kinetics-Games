@@ -9,8 +9,7 @@ This learning module provides an analogy to chemical kinetics and is designed to
 * When a reaction happens, a drawn ball is replaced by ball of the opposite color taken from stock
 
 ## How to run
-You can launch the learning module from R using the Shiny package by typing
-
+You can launch the learning module from R using the Shiny package.
 Run the following command in the R console:
 
 ```R
